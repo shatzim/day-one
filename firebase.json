@@ -1,0 +1,10 @@
+{
+  "firebase": "day-one",
+  "public": "app",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**",
+    "**/*_test.js"
+  ]
+}

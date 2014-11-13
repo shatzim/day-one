@@ -8,8 +8,12 @@ module.exports = function(config){
       'app/components/angular-route/angular-route.js',
       'app/components/angular-mocks/angular-mocks.js',
       'app/components/**/*.js',
-      'app/**/*.js',
-      'tests/unit/**/*.js'
+      'app/**/*.js'
+    ],
+
+    exclude : [
+      'app/**/*.min.js',
+      'app/**/*-debug.js'
     ],
 
     autoWatch : true,
